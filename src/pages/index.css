@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+
+
+
+html {font-size: 100%; height: 100vh;} /*16px*/
+
+:root{
+    --large-line-height: 1.15;
+    --large-h1-size:3.052rem;
+    --large-h2-size:2.441rem;
+    --large-h3-size:1.7rem;
+    --large-link-size: 1.563rem;
+    
+    --large-p-size:1.15rem;
+
+    --largeH1-bottom-margin:2.32rem;
+
+    --largeP-bottom-margin:2.5rem;
+
+    --small-bottom-margin:1rem;
+    --image-margin: 0.78rem;
+
+    /* Colours */
+
+    --dusty-pink: #FDB6AC;
+    --maroon: #B24F54;
+    --lilac: #CABEC5;
+
+    --light-green: #BFCBB5;
+    --light-yellow: #FDF9E0;
+    --mustard: #FDCC5A;
+    --grey:#7F7776;
+
+
+
+
+}
+
+body {
+    background: linear-gradient(359.18deg, #FDAFA5 0.18%, #FEFDFA 66.88%) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+  }
+
+  
+  
+  
+  h1, h2, h3, h4, h5 {
+
+    font-family: 'happy-times-at-the-ikob'; 
+    line-height: var(--large-line-height);
+
+  }
+  
+  h1 {
+    
+    font-size: var(--large-h1-size);
+    text-transform: uppercase;
+    color: var(--dusty-pink);
+    margin-bottom: var( --largeH1-bottom-margin);
+  }
+  
+  h2 {
+    font-size: var(--large-h2-size);
+    color: var(--maroon);
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    font-size: var(--large-h3-size);
+    margin-bottom: var(--small-bottom-margin);
+    color: var(--maroon);
+  }
+
+  
+p{
+    font-size: var(--large-p-size);
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--grey);
+    line-height: 1.2;
+    margin-bottom: 1.15rem;
+}
